@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #524d4d;
+}
+.logo{
+    border: 7px solid black;
+    border-radius: 50%; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    box-sizing: border-box;
+}
+.iogo img{
+    display: block;
+}
+header {
+    background-color: rgb(222, 202, 228);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.menu {
+    list-style: none;
+    padding-left: 40%;
+    font-size: 55px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.con {
+    text-align: center;
+    padding: 40px;
+    background-color: #333;
+    color: #fff;
+}
+
+.form {
+    margin: 20px auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+button{
+    color: goldenrod;
+    background-color: blueviolet;
+    padding: 15px;
+    border: 6px solid silver;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.icons a {
+    padding: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 75px;
+}
+
+
